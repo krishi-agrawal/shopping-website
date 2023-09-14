@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.featured-products{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading > h2{
+    flex: 2;
+    
+}
+.heading > span{
+    flex: 3;
+    color: gray;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
